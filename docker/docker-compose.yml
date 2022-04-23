@@ -1,13 +1,6 @@
 version: "3"
 
 services:
-  todotests:
-    depends_on:
-      - todofront
-      - todoback
-    image: todotests
-    environment:
-      - FRONT_HOST=todofront
   todofront:
     depends_on:
       - todoback

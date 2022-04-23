@@ -1,1 +1,1 @@
-docker build todo-app/tests -t todotests
+docker-compose up -d
